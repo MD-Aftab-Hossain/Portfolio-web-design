@@ -1,0 +1,235 @@
+.headertag {
+    background-color: #FFF8F3;
+    background-image: url(developer.png), url(header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+
+
+.open-sans-allbody {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* nav style */
+.baba {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px 50px 235px;
+}
+
+
+/* shared style */
+.rong {
+    color: #FD6E0A;
+}
+
+.dark2 {
+    color: #474747;
+}
+
+.dark3 {
+    color: #757575;
+}
+
+.bold35 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.desc {
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #757575;
+
+}
+
+
+.btnprimary {
+    background-color: #FD6E0A;
+    font-weight: bold;
+    padding: 18px 35px 19px 36px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.title {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 51px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* banner  banner  banner   banner  banner  banner  banner  banner  */
+.potban p{
+    text-align: left;
+}
+.b-gret {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.b-title {
+    color: #181818;
+    font-weight: bold;
+    font-size: 85px;
+}
+
+/* light->300 ,regular->400 ,medium->500
+ semibold->600 ,bold->700 ,extrabold->800 */
+
+
+.bnr-pic {
+    width: 584px;
+    height: 676px;
+    margin-right: 33px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.potban {
+    max-width: 585px;
+    max-height: 257px;
+    margin-left: 235px;
+}
+
+/* main main main main main main main main main */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+/* about about about about about about about about  */
+.about {
+    border-radius: 10px;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+    margin-top: 130px;
+
+}
+
+.about-shortitem {
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+
+}
+
+.item-desc {
+    font-weight: bold;
+}
+
+.item-name {
+    text-align: center;
+}
+
+/* skills skills skills skills skills skills skills skills skills skills */
+.skills {
+    text-align: center;
+    margin-top: 130px;
+}
+
+
+.baban {
+    text-align: left;
+    gap: 24px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 130px;
+
+}
+
+.skillcell {
+
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    width: 277px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+/* resume resume resume resume resume resume resume resume resume resume resume resume resume resume  */
+
+.r-borobaba {
+    display: flex;
+    gap: 71px;
+}
+
+/* very important */
+.resume h3.sec-t {
+    text-align: center;
+}
+
+.r-d-cell p {
+    text-align: left;
+}
+
+.r-baba-t {
+    text-align: left;
+}
+
+.r-d-baba {
+    margin-top: 113px;
+}
+
+.rbtn {
+
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* contact contact  contact contact contact contact contact contact contact contact contact contact  */
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 130px;
+}
+.contact .section-title{
+    text-align: left;
+}
+
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input{
+    height: 64px;
+}
+
+.contact a{
+    text-decoration: none;
+}
